@@ -1,42 +1,27 @@
 # Sales Performance & KPI Dashboard
 
-## Business objective
-Analyze sales performance across time, regions, and product categories to identify revenue trends, order performance, and areas requiring attention.
+A recruiter-ready analytics project that turns transactional sales data into executive KPIs and drill-down analysis.
+
+## Business question
+Where is revenue coming from, how is performance changing over time, and which regions/categories deserve attention?
 
 ## Stack
-SQL • Excel • Power BI • DAX • Power Query
+SQL • Excel • Power BI • DAX • Power Query • Python
 
-## KPIs
-- Total Revenue
-- Total Orders
-- Average Order Value (AOV)
-- Revenue by Region
-- Revenue by Category
-- Monthly Revenue Trend
-- Order Volume
+## Dataset
+Synthetic 2025 transactional data. The dataset is intentionally synthetic; portfolio metrics must not be presented as real company results.
 
-## Workflow
-1. Load transactional data.
-2. Clean and transform fields with Power Query.
-3. Query and aggregate data with SQL.
-4. Create a star-style analytical model.
-5. Build DAX measures for KPI calculations.
-6. Design an interactive Power BI dashboard with slicers for date, region and category.
+## Analysis
+- Revenue, orders, units and AOV
+- Monthly revenue trend
+- Category and regional rankings
+- Dashboard-ready KPI tables
 
-## Dashboard pages
-### Executive Overview
-KPI cards, monthly revenue trend, regional revenue, category contribution.
+## Run
+```bash
+pip install pandas matplotlib
+python python/analyze_sales.py
+```
 
-### Regional Analysis
-Region ranking, order volume, AOV and monthly trend.
-
-### Product Analysis
-Category revenue, order mix and performance comparison.
-
-## Reproducibility
-The repository includes synthetic transactional data and SQL queries. The numbers are intentionally generated for portfolio demonstration and are not presented as real business results.
-
-## Files
-- `data/sales_data.csv` — synthetic dataset
-- `sql/analysis.sql` — analytical SQL queries
-- `python/generate_data.py` — reproducible dataset generator
+## Power BI dashboard
+Create Executive Overview, Regional Analysis and Product Analysis pages using the included CSV and SQL queries. Recommended slicers: Date, Region and Category.
