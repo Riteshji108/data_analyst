@@ -1,0 +1,2 @@
+order_id,order_date,region,category,product,units,unit_price,discount,revenue
+S0001,2025-01-01,North,Electronics,Laptop,2,510.31,0.0,1020.62
