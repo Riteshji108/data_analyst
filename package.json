@@ -8,13 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "latest",
-    "framer-motion": "latest",
-    "lucide-react": "latest",
-    "next": "latest",
-    "postcss": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "tailwindcss": "latest"
+    "@tailwindcss/postcss": "4.3.3",
+    "framer-motion": "13.2.0",
+    "lucide-react": "1.43.0",
+    "next": "16.3.4",
+    "postcss": "8.5.28",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "tailwindcss": "4.3.3"
   }
 }
